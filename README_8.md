@@ -83,7 +83,7 @@
 6. 
 
 ```
-Поле для вставки кода...
+https://github.com/DavyRoy/sflt-homeworks_8-03/blob/main/hw-12-1.xlsx
 ....
 ....
 ....
@@ -91,4 +91,4 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![скриншот интерфейса Kibana, на котором видны логи Nginx](https://github.com/DavyRoy/sflt-homeworks_8-03/blob/main/Снимок%20экрана%20от%202024-04-01%2008-35-00.png)
+![1]()
