@@ -21,6 +21,9 @@
 6. 
 
 ```
+SELECT DISTINCT district
+FROM addresses
+WHERE district LIKE 'K%' AND district LIKE '%a%' AND district NOT LIKE '% %';
 
 ```
 
@@ -40,6 +43,9 @@
 6. 
 
 ```
+SELECT *
+FROM payment
+WHERE payment_date BETWEEN '2005-06-15' AND '2005-06-18' AND amount > 10.00;
 
 ```
 
@@ -61,7 +67,11 @@
 6. 
 
 ```
-Поле для вставки кода...
+SELECT *
+FROM rental
+ORDER BY rental_date DESC
+LIMIT 5;
+
 ....
 ....
 ....
@@ -88,7 +98,10 @@
 6. 
 
 ```
-Поле для вставки кода...
+SELECT LOWER(REPLACE(first_name, 'LL', 'pp')) AS customer_name_lower 
+FROM customer 
+WHERE (first_name = 'Kelly' OR first_name = 'Willie') AND active = 1;
+
 ....
 ....
 ....
