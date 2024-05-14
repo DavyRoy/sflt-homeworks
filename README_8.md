@@ -21,6 +21,7 @@
 6. 
 
 ```
+SELECT user, host FROM mysql.user;
 
 ```
 
@@ -40,6 +41,7 @@
 6. 
 
 ```
+SHOW GRANTS FOR 'sys_temp'@'localhost';
 
 ```
 
@@ -61,7 +63,8 @@
 6. 
 
 ```
-Поле для вставки кода...
+SHOW TABLES FROM sakila;
+
 ....
 ....
 ....
