@@ -43,14 +43,16 @@ WHERE district LIKE 'K%' AND district LIKE '%a%' AND district NOT LIKE '% %';
 6. 
 
 ```
-SELECT *
-FROM payment
-WHERE payment_date BETWEEN '2005-06-15' AND '2005-06-19' AND amount > 10.00;
+SELECT * 
+FROM payment 
+WHERE payment_date >= '2005-06-15' 
+  AND payment_date < '2005-06-19' 
+  AND amount > 10.00;
 
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![2](https://github.com/DavyRoy/sflt-homeworks_8-03/blob/main/Снимок%20экрана%20от%202024-05-13%2015-34-56.png)
+![2](https://github.com/DavyRoy/sflt-homeworks_8-03/blob/main/Снимок%20экрана%20от%202024-05-14%2011-15-09.png)
 
 
 ---
